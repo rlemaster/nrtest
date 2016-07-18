@@ -42,7 +42,6 @@ sample test script to show update
   see org view after update
    http://localhost:3000/events/events_for_org?id=1&count=20
 
-
 test case:
   setup:
     rake db:test:prepare RAILS_ENV=test
