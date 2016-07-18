@@ -1,0 +1,23 @@
+http://localhost:3000/events/log_it?host_name=stage.org1.com;host_action=server_reboot
+
+
+http://localhost:3000/events/events_for_org?id=1
+
+
+rails g migration AddOrgIdToHost org_id:int 
+
+
+rake test TEST=test/controllers/event_test.rb
+
+
+
+
+assert(JSON.parse(last_response.body)['title'], "principal devrait être faux")
+
+assert(JSON.parse(last_response.body)['org'], "org1")
+
+
+
+
+
+

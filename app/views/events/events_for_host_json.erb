@@ -1,0 +1,14 @@
+<table id="evt_summary_table">
+  <tr>
+    <th>TimeStamp</th>
+    <th>Event</th>
+    <th>HostName</th>
+  </tr>
+  <% for event in @events %>
+      <tr>
+        <td><%= event.created_at.to_s %></td>
+        <td><%= event.action %></td>
+        <td><%= event.hostname %></td>
+      </tr>
+  <% end %>
+</table>

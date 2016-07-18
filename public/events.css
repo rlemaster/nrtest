@@ -1,0 +1,28 @@
+body {
+    background-color: #003366;
+    background-color: #ffffff;
+    /*  font-family: Galdeano, Verdana, Helvetica, Arial;*/
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    /*  font-size: 13px;*/
+    /* fallback */
+    background-color: #6666CC;
+    background-color: #ffffff;
+    /* background-image: url(images/linear_bg_1.png);   */
+    background-repeat: no-repeat;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, left top, right bottom, from(#6666cc), to(#91b5e7));
+    /*     Safari 5.1, Chrome 10+         */
+    background: -webkit-linear-gradient(left, #91b5e7, #6666cc);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(left, #849EE0, #7F95DD);
+    /*IE 10*/
+    background: -ms-linear-gradient(left, #91b5e7, #6666cc);
+    /*Opera 11.10+ */
+    background: -o-linear-gradient(left, #91b5e7, #6666cc);
+    /*  background-image: url("/assets/images/IndieBack.jpg") ;*/
+    background-image: url("/assets/images/IndieBackHRES.jpg");
+    background-size: 100%;
+    min-width: 960px;
+}

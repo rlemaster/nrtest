@@ -1,0 +1,36 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  action:   server_reboot
+  hostname: www.dev.org1.com
+  org_id: 1
+
+two:
+  action:   server_shutdown
+  hostname: www.dev.org2.com
+  org_id: 2
+
+three:
+  action:   hard_disk_restart
+  hostname: www.dev.org2.com
+  org_id: 2
+
+four:
+  action:   hard_disk_restart
+  hostname: www.dev.org1.com
+  org_id: 1
+
+five:
+  action:   detected_port_scan
+  hostname: www.dev.org1.com
+  org_id: 1
+
+six:
+  action:   detected_port_scan
+  hostname: www.dev.org1.com
+  org_id: 1
+
+seven:
+  action:   detected_port_scan
+  hostname: www.dev.org1.com
+  org_id: 1
