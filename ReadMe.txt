@@ -15,7 +15,7 @@ Set up.
 
 Sample urls to see app in operation:
 Submit an event to log
-(note its a get so can run it from browser, have a long reason for using get instead of post, ask me in interview)
+(note its a get so can run it from browser, have a long reason for using get instead of post, ask me in interview  :-))
 http://localhost:3000/events/log_it?host_name=www.stage.org1.com;host_action=server_reboot
 
 Submit a request to view the last 20 events for org report with org id 1 in html.
